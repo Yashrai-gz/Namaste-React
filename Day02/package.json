@@ -1,0 +1,21 @@
+{
+  "name": "day02",
+  "version": "1.0.0",
+  "description": "This is the 2nd lesson on React.js which include parcel and basic intro to node_ modules,package.json and package-lock.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "buggy",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 5 versions"
+  ]
+}
