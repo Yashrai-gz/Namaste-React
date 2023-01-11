@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="heading"><h1> Yo!! how You doing?  </h1>
+        <button id="btt">click me</button>
+        <ul id="fruit"></ul>
+    </div>
+    
+    
+
+<script>
+
+    const btn=document.getElementById("btt");
+    btn.addEventListener("click",first);  //adding eventlistener
+
+    function first(){
+          //create and append element
+
+        const heading1=document.createElement("h1"); //created element    
+        heading1.innerHTML="This is DOM manipulation by JS";//Giving innnerHTml    
+        const root=document.getElementById("heading"); //geting access to div with id heading    
+        root.appendChild(heading1); //adding below the previous statments
+    
+        //change the attributes of elements
+        const image=document.createElement("img");    
+        image.setAttribute("src","1.PNG");     //Element.setAttribute("name","value"); 
+        root.appendChild(image);
+        
+        
+            
+        //document Fragment
+        /*         
+        this is Lightweight container for holding HTML elements
+        it is cleared when you will append the document fragment once to the document
+        In the DOM tree, the document fragment is replaced by all its children.
+        
+        You can also use the DocumentFragment constructor to create a new fragment:
+        const fragment = new DocumentFragment();
+        
+        */
+       
+        const fruitList=document.getElementById("fruit");
+        const fragment=document.createDocumentFragment();//created fragment
+        const item1=document.createElement("li");
+        const item2=document.createElement("li");
+        item1.textContent="Apple";
+        item2.textContent="Banana";
+
+        fragment.appendChild(item1); //appended children to the fragment
+        fragment.appendChild(item2);
+
+        fruitList.appendChild(fragment); //appending fragment to document
+        
+    }    
+
+</script>
+</body>
+</html>
