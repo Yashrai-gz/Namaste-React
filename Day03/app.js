@@ -50,7 +50,7 @@ return (
         <ul className= "nav_links">
             <li><a href='#'>Home</a></li>
             <li><a href='#'>About Us</a></li>
-            <li><a href='#'>contact Us</a></li>              
+            <li><a href='#'>Contact Us</a></li>              
             
         </ul>      
     </div>

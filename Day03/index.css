@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin:0;
-    background-color: lightskyblue;
+    background-color: #0A2647;
 
 }
  li, a{
@@ -19,6 +19,8 @@ body{
 .nav_links{
     float:right;
     margin:40px;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 .nav_links ul{
     margin:0;
@@ -47,7 +49,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: whitesmoke;
+    background-color:#F1F6F5;
     width: auto;
   }
   .left {
