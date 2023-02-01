@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    background-color: lightskyblue;
+
+}
+ li, a{
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:black;
+    text-decoration:none;
+}
+
+
+.nav_links{
+    float:right;
+    margin:40px;
+}
+.nav_links ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    margin-left:50px;
+    padding-top:25px;
+    
+}
+
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color:#0088a9;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    width: auto;
+  }
+  .left {
+    margin-left: 40px;
+  }
+  
+  .left img {
+    width: 50px;
+    margin: 10px 40px 0 10px;
+    cursor: pointer;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+  .center .input {
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .input:focus {
+    border: 3px solid crimson;
+  }
+  
+  .center button {
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: lightskyblue;
+    color: white;
+  }
+  
+  
+
+
+  @media screen and (max-width: 770px) {
+    .center .input {
+      width: 200px;
+      transition: all 500ms ease;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .left {
+      margin-left: 5px;
+    }
+  
+    .left img {
+      margin: 10px 10px 0 10px;
+    }
+  
+    .nav_links {
+      margin-right: 5px;
+    }
+  
+    .center .input {
+      width: 100px;
+      transition: all 500ms ease;
+    }
+  }
+  
+  @media screen and (max-width: 340px) {
+    .center .input {
+      width: 70px;
+      transition: all 500ms ease;
+    }
+  }
+
+
+

@@ -1,0 +1,22 @@
+{
+  "name": "day03",
+  "version": "1.0.0",
+  "description": "functional component,JSX, JSX VS React.createElement()",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "yash",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  }
+}
