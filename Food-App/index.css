@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    background-color: #B1D4E0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    width: auto;
+  }
+  .left {
+    margin-left: 20px;
+  }
+  
+  .left img {
+    width: 12rem;
+    margin: 10px 40px 0 10px;
+    cursor: pointer;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+ 
+
+ li, a{
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:black;
+    text-decoration:none;
+}
+
+
+.nav_links{
+    float:right;
+    margin:40px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.nav_links ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    margin-left:50px;
+    padding-top:25px;
+    
+}
+
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color:#0088a9;
+}
+
+.card{
+  width:200px;
+  border: 1px solid white;
+  padding: 10px;
+  color:#0C2D48;
+  margin:10px;
+  background-color: whitesmoke;
+}
+.card > h3{
+  font-size: 15px;
+  color:grey;
+}
+.card > h4{
+  font-size: 14px;
+  color:grey;
+}
+.card > img{
+  width:100%;
+}
+.restraunt-list{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+
